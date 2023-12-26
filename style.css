@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/header-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.logo{
+    width:150px;
+    height: 35px;
+    transform: translate(-150px);
+}
+.right-end{
+    transform: translate(150px);
+}
+.lang{
+    background:none;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 35px;
+    color: white;
+    width:120px;
+}
+.world{
+    height: 15px;
+}
+.down{
+    height: 7px;
+    transform: translateX(-5px);
+}
+.signin{
+    transform: translate(8px);
+    height: 35px;
+    color:white;
+    background-color: #db0001;
+    font-family: 'Poppins', sans-serif;
+    width: 90px;
+    border:none;
+    border-radius: 6px;
+}
+.center-cont{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    /* border: 2px solid white; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 1.2;
+    text-align: center;
+}
+.sub-content h3{
+    font-size: large;
+    padding: 10px;
+}
+.sub-content p{
+    font-size: 17px;
+    padding:7px;
+}
+.emailentry{
+    margin-top:35px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 500px 150px;
+    grid-template-rows: 45px;
+    margin-left: 7%;
+}
+.emailentry button{
+    color: white;
+    background-color:#db0001;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 17px;
+    font-style: 'poppins','sans-serif';
+}
+.inpem{
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    font-style: 'poppins','sans-serif';
+    font-weight: bolder;
+}
